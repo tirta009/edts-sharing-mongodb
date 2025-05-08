@@ -36,7 +36,7 @@ db.products.aggregate([
         }
     },
     {
-        $sort : {
+        $sort :  {
             totalCategory : -1
         }
     }
